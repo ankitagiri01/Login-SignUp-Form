@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form - By Ankita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-section">
+        <div class="toggle-box">
+            <div class="greet-msg login">
+                <h1>Hello, Welcome!</h1>
+                <p>Don't have an account?</p>
+                <button onclick="login()">Register Now</button>
+            </div>
+            <div class="greet-msg register">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                <button onclick="register()">Register Now</button>
+            </div>
+        </div>
+        <div class="form-box login-form">
+            <form>
+                <h1>Login</h1>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Username">
+                    <img src="img/user.png" alt="icon">
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" placeholder="Password">
+                    <img src="img/padlock.png" alt="icon">
+                </div>
+                <a href="#" class="forgotPwd">Forgot Password?</a>
+                <button>Login</button>
+                <p>Or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="img/google.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/facebook.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/github.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/linkedin.png" alt="icon">
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register-form">
+            <form>
+                <h1>Register Now</h1>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Username">
+                    <img src="img/user.png" alt="icon">
+                </div>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Email">
+                    <img src="img/email.png" alt="icon">
+                </div>
+                <div class="input-wrapper">
+                    <input type="password" placeholder="Password">
+                    <img src="img/padlock.png" alt="icon">
+                </div>
+                <button>Register</button>
+                <p>Or register with social platforms</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="img/google.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/facebook.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/github.png" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/linkedin.png" alt="icon">
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
